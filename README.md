@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ritumbhara Landing Page (Mockup)
 
-## Getting Started
+This is a landing page mockup I built for Ritumbhara — a hospitality management brand curating hotels, villas, and boutique stays across India.
 
-First, run the development server:
+The goal was to take the existing website and rework it into a version that's more conversion-friendly, based on a set of improvement points I put together after reviewing the live site (things like an on-page booking flow, real reviews/ratings, better property photos, pricing visibility, and a few UX tweaks throughout).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What's in here
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The page is broken into sections, each addressing a specific gap from the original review:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Hero** – real property image, trust badges, and an on-page availability check instead of routing straight to WhatsApp
+- **Destinations** – photo cards for each city with pricing and a small map view
+- **Trust strip** – Superhost, no OTA fees, and human support, backed with actual rating numbers
+- **Featured Properties** – a horizontally scrollable carousel of properties with pricing and ratings
+- **The Ritumbhara Standard** – the brand's operating principles, laid out as a scannable icon grid instead of one long paragraph
+- **Testimonials** – guest reviews with star ratings, avatars, and source (Airbnb/Google)
+- **Email capture** – a lightweight signup section with an incentive to convert undecided visitors
+- **FAQ** – accordion-style, so it doesn't overwhelm the page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## A note on the data
 
-## Learn More
+I didn't have access to real property listings, reviews, or booking data, so most of the content here — prices, reviews, photos, guest names — is mock/placeholder data used to show how the layout and flow would actually work. Same goes for a few links in the page (booking, contact) which point to placeholders for now. All of it is easy to swap out once real content is available.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Built with React + Tailwind, deployed on Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Live version
 
-## Deploy on Vercel
+https://ritumbhara-zeta.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by Nilesh Srivastava.
